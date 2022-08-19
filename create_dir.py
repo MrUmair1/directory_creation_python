@@ -8,7 +8,7 @@ dir_names = ["list_tables"]
 for i in dir_names:
 # Parent Directories 
     try:
-        parent_dir = "SAP_SOURCE/"
+        parent_dir = "dir/SOURCE/"
             
         # Path 
         path = os.path.join(parent_dir, i) 
